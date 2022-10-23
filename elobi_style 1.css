@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: *Poppons*, san-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250vh;
+    background: rgba(9, 17, 2, 0.123);
+}
+.list
+{
+    position: relative;
+    background: rgba(163, 211, 188, 0.973);
+    width: 350px;
+}
+.list h2
+{
+    background: #03a9f4;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 450;
+}
+.list ul
+{
+    position: relative;
+    padding: 20px;
+}
+.list ul li
+{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 95, 133, 0.616);
+}
